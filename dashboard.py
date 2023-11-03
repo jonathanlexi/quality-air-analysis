@@ -33,7 +33,7 @@ with col1 :
         st.metric("O3",format(df_max_mean['O3'],'.2f'))
 
 with col2 : 
-    st.caption('Kualitas udara terburuk selama 2013-2017')
+    st.caption('Kualitas udara terbaik selama 2013-2017')
     st.header(df_min_mean['station'])
     st.subheader(df_min_mean['year'])
 
