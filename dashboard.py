@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st 
 import matplotlib.lines as mlines
-import matplotlib.transforms as mtransforms
-
-print(dir(plt))
 
 df = pd.read_csv('air_quality_fixed.csv')
 
